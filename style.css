@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    height: 900vh;
+}
+
+.display-pages{
+    margin-left: 20%;
+    
+}
+
+:root {
+    --bg-black-900: #f2f2fc;
+    --bg-black-100: #fdf9ff;
+    --bg-black-50: #e8dfec;
+    --color-10: #20e773;
+    --color-11: #643fe9;
+    --color-12: #5febe4;
+    --txt-color: #000000;
+}
+
+.container-menu{
+    height: 100vh;
+    width: 8%;
+    background-color: var(--bg-black-900);
+    position: fixed;
+    transition: all 1s ease;
+}
+
+.menu{
+    width: 100%;
+    height: 40%;
+    margin-top: 7%;
+    display: flex;
+}
+ul{
+    width: 90%;
+    margin-left: 40px;
+}
+.item-menu{
+    padding: 10px 20px;
+    list-style-type: none;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.item-menu:hover{
+    transition: all 0.5s ease;
+    background-color: var(--color-10);
+}
+
+.item-menu a{
+    text-decoration: none;
+    line-height: 90px;
+    color: var(--txt-color);
+}
+.item-menu .icon{
+    font-size: 1.8rem;
+}
+
+.txt-menu{
+    font-size: 1.2rem;
+    margin-left: 80px;
+    position: fixed;
+    transition: all 0.5s ease;
+    opacity: 0;
+}
+.container-menu.expandir .txt-menu{
+    transition: all 0.5s ease;
+    opacity: 1;
+}
+
+.logo{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.logo img{
+    width: 16vh;
+    border-radius: 50%;
+    margin-top: 25%;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 3%;
+    margin-top: 30%;
+}
+.button i{
+    font-size: 2rem;
+    cursor: pointer;
+    transition: all 0.8s ease;
+}
+.button i:hover{
+    transform: scale(1.2);
+    color: var(--color-12);
+    transition: all 0.8s ease;
+}
+.container-menu.expandir{
+    width: 40vh;
+    transition: all 1s ease;
+}
+
+/*----------------HOME PAGE------------------*/
+
+.home{
+    height: 100vh;
+}
