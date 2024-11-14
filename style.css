@@ -1,18 +1,20 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
 
-body{
+body {
     height: 900vh;
+
 }
 
-.display-pages{
-    margin-left: 20%;
-    
+.home {
+    height: 100%;
+    transition: margin-left 1s ease;
 }
+
 
 :root {
     --bg-black-900: #f2f2fc;
@@ -20,18 +22,22 @@ body{
     --bg-black-50: #e8dfec;
     --color-10: #20e773;
     --color-11: #643fe9;
-    --color-12: #5febe4;
+    --color-12: #2383dd;
     --txt-color: #000000;
 }
-
-.container-menu{
+/*-----------------------------------menu lateral-----------------------------------*/
+.container-menu {
     height: 100%;
     width: 9%;
     background-color: var(--bg-black-900);
     position: fixed;
-    transition: all 1s ease;
+    transition: width 1s ease;
+    box-shadow: 3px 0 5px rgba(0, 0, 0, 0.1);
 }
 
+.container-menu.expandir {
+    width: 34vh; /* Ajuste este valor para a largura desejada do menu expandido */   
+}
 
 ul {
     margin-top: 50px;
@@ -39,6 +45,7 @@ ul {
     list-style-type: none;
     padding: 0;
 }
+
 .item-menu a {
     text-decoration: none;
     color: black;
@@ -50,89 +57,150 @@ ul {
     line-height: 10px;
     margin-left: 30px;
 }
+
 .item-menu a:hover {
     background-color: #ffffff;
 }
-ul li.item-menu a .icon{
+
+ul li.item-menu a .icon {
     margin-left: 40px;
 }
+
 ul li.item-menu a .icon i {
-    font-size: 24px;
+    font-size: 30px;
     margin-right: 30px;
 }
 
-.item-menu a {
-    text-decoration: none;
-    color: black;
-    display: flex;
-    align-items: center;
-    padding: 40px 0 40px 1%;
-    font-size: 20px;
-    transition: background-color 0.3s;
-    line-height: 10px;
-    margin-left: 30px;
-}
-.item-menu .icon{
-    font-size: 1.8rem;
-}
-
 ul li a .txt-menu {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Sour Gummy", sans-serif;
+    font-size: 25px;
     margin-left: 40px;
-    transition: all 0.7s;
+    transition: opacity 0.7s, pointer-events 0.7s;
     opacity: 0;
     pointer-events: none;
 }
-.ul li a .txt-menu.expandir{
+
+.container-menu.expandir .txt-menu {
     opacity: 1;
     pointer-events: auto;
 }
-.container-menu.expandir .txt-menu{
-    transition: all 0.8s ease;
-    opacity: 1;
-}
 
-.logo{
+.logo {
     width: 100%;
     height: 15%;
     display: flex;
     justify-content: center;
     align-items: center;
-    
-}
-.logo img{
-    width: 16vh;
-    border-radius: 50%;
-    
 }
 
-.button{
+.logo img {
+    width: 16vh;
+    border-radius: 50%;
+}
+
+.button {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: 3%;
 }
-.button i{
+
+.button i {
     font-size: 2rem;
-    transition: all 0.8s ease;
+    transition: transform 0.8s, color 0.8s;
     cursor: pointer;
     margin-top: 50px;
 }
-.button i:hover{
+
+.button i:hover {
     transform: scale(1.2);
     color: #1dbe1d;
-    transition: all 0.8s ease;
 }
 
-.container-menu.expandir{
-    width: 34vh;
+/*-----------------------------------home-page-----------------------------------*/
+.home {
+    height: 100vh;
+    background-color: var(--bg-black-900);
+    display: flex;
+}
+.container-home h1 {
+    margin-left: 200px;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    transition: all 1s ease;
+    position: absolute;
+    margin-top: 8%;
+}
+.container-home h1 span{
+    color: var(--color-12);
+    font-family: "Sour Gummy", sans-serif;
+}
+.container-home h2 {
+    margin-left: 200px;
+    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+    transition: all 1s ease;
+    position: absolute;
+    margin-top: 11%;
+}
+.container-home h2 span{
+    color: var(--color-12);
+    font-family: "Sour Gummy", sans-serif;
+}
+.home.expandir{
+    margin-left: 200px;
     transition: all 1s ease;
 }
 
-/*----------------HOME PAGE------------------*/
+.img-eu{
+    position: absolute;
+    margin-left: 55%;
+    margin-top: 9%;
+}
 
-.home{
-    height: 100vh;
-    background-color: var(--bg-black-500);
+.img-eu img{
+    width: 30vh;
+    border-radius: 2%;
+    transition: all 0.8s ease;
+}
+.img-eu img:hover{
+    transform: scale(1.1);
+    transition: all 0.8s ease;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: var(--color-11);
+    margin-top: -70px;
+    margin-left: 50%;
+    cursor: pointer;
+    transition: all 0.8s ease;
+}
+
+.btn i{
+    font-size: 20px;
+    transition: all 1s ease;
+    color: var(--bg-black-100);
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(10px);
+    }
+    60% {
+        transform: translateY(20px);
+    }
+}
+
+.bounce {
+    animation: bounce 1s;
 }
