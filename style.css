@@ -9,7 +9,10 @@ body {
     height: 900vh;
 
 }
-
+.position{
+    margin-left: 20%;
+    margin-top: 5%;
+}
 .home {
     height: 100%;
     transition: margin-left 1s ease;
@@ -173,8 +176,8 @@ ul li a .txt-menu {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     background-color: var(--color-11);
     margin-top: -70px;
@@ -184,7 +187,7 @@ ul li a .txt-menu {
 }
 
 .btn i{
-    font-size: 20px;
+    font-size: 25px;
     transition: all 1s ease;
     color: var(--bg-black-100);
 }
@@ -193,14 +196,21 @@ ul li a .txt-menu {
     0%, 20%, 50%, 80%, 100% {
         transform: translateY(0);
     }
+    20% {
+        transform: translateY(15px);
+    }
     40% {
-        transform: translateY(10px);
+        transform: translateY(15px);
     }
     60% {
-        transform: translateY(20px);
+        transform: translateY(10px);
+    }
+    80% {
+        transform: translateY(10px);
     }
 }
 
 .bounce {
     animation: bounce 1s;
 }
+/*-----------------------------------about-----------------------------------*/
