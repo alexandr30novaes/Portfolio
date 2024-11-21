@@ -6,7 +6,8 @@
 }
 
 body {
-    height: 900vh;
+    height: 400vh;
+    background-color: var(--bg-black-900);
 
 }
 .position{
@@ -123,12 +124,11 @@ ul li a .txt-menu {
 
 /*-----------------------------------home-page-----------------------------------*/
 .home {
-    height: 100vh;
-    background-color: var(--bg-black-900);
+    height: 25%;
     display: flex;
 }
 .container-home h1 {
-    margin-left: 200px;
+    margin-left: 250px;
     font-size: 2rem;
     font-family: 'Roboto', sans-serif;
     transition: all 1s ease;
@@ -140,7 +140,7 @@ ul li a .txt-menu {
     font-family: "Sour Gummy", sans-serif;
 }
 .container-home h2 {
-    margin-left: 200px;
+    margin-left: 250px;
     font-size: 28px;
     font-family: 'Roboto', sans-serif;
     transition: all 1s ease;
@@ -158,7 +158,7 @@ ul li a .txt-menu {
 
 .img-eu{
     position: absolute;
-    margin-left: 55%;
+    margin-left: 60%;
     margin-top: 9%;
 }
 
@@ -173,15 +173,16 @@ ul li a .txt-menu {
 }
 
 .btn{
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 44%;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: var(--color-11);
-    margin-top: -70px;
-    margin-left: 50%;
+    background-color: var(--color-12);
     cursor: pointer;
     transition: all 0.8s ease;
 }
@@ -193,7 +194,7 @@ ul li a .txt-menu {
 }
 
 @keyframes bounce {
-    0%, 20%, 50%, 80%, 100% {
+    0%, 20%,  50%, 80%, 100% {
         transform: translateY(0);
     }
     20% {
@@ -203,10 +204,10 @@ ul li a .txt-menu {
         transform: translateY(15px);
     }
     60% {
-        transform: translateY(10px);
+        transform: translateY(30px);
     }
     80% {
-        transform: translateY(10px);
+        transform: translateY(40px);
     }
 }
 
@@ -214,3 +215,79 @@ ul li a .txt-menu {
     animation: bounce 1s;
 }
 /*-----------------------------------about-----------------------------------*/
+
+.container-about{
+    width: 100%;
+}
+.about p{
+    font-size: 20px;
+    font-family: "sour gummy", sans-serif;
+    text-indent: 35px;
+}
+
+.container-carrossel {
+    width: 55vw; /* Ajuste o tamanho conforme necessário */
+    height: 60vh; /* Ajuste o tamanho conforme necessário */
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
+    margin: 3rem auto;
+    overflow: hidden;
+    transform: translateX(30%); /* Centraliza horizontalmente */
+}
+
+.carrossel {
+    display: flex; /* Usando flex para alinhar as imagens */
+    height: 100%;
+    width: 500%; /* Largura total ajustada para 500% (5 imagens) */
+    animation: slider 25s ease-in-out infinite;
+}
+
+.carrossel div {
+    background-size: cover; /* Certifique-se de que as imagens cubram a área */
+    background-position: center;
+    width: 25%; /* Cada imagem ocupará 20% do carrossel */
+    height: 100%;
+    transition: transform 0.6s ease;
+}
+
+.carrossel div:hover {
+    transform: scale(1.1); /* Efeito de zoom */
+}
+
+#slider-img-1 {
+    background-image: url(/img/IMG-01.png);
+}
+
+#slider-img-2 {
+    background-image: url(/img/IMG-02.png);
+}
+
+#slider-img-3 {
+    background-image: url(/img/IMG-03.png);
+}
+
+#slider-img-4 {
+    background-image: url(/img/IMG-04.png);
+}
+
+#slider-img-5 {
+    background-image: url(/img/IMG-05.png);
+}
+
+/* Copiando as imagens para criar um loop contínuo */
+.carrossel {
+    animation: slider 25s ease-in-out infinite;
+}
+
+@keyframes slider {
+    0% { transform: translateX(0%); }
+    20% { transform: translateX(-20%); }
+    40% { transform: translateX(-40%); }
+    60% { transform: translateX(-60%); }
+    80% { transform: translateX(-80%); }
+    100% { transform: translateX(-100%); }
+}
+
+
+
+
+
