@@ -78,8 +78,8 @@ ul li.item-menu a .icon i {
 ul li a .txt-menu {
     font-family: "Sour Gummy", sans-serif;
     font-size: 25px;
-    margin-left: 40px;
-    transition: opacity 0.7s, pointer-events 0.7s;
+    margin-left: 20px;
+    transition: opacity 0.6s, pointer-events 0.6s;
     opacity: 0;
     pointer-events: none;
 }
@@ -231,7 +231,7 @@ ul li a .txt-menu {
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
     margin: 3rem auto;
     overflow: hidden;
-    margin-top: -1px;
+    margin-top: 50px;
     margin-left: 50%;
     transform: translateX(-40%);
 }
