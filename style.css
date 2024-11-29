@@ -195,6 +195,7 @@ ul li a .txt-menu {
     transition: all 0.8s ease;
 }
 .btn:hover {
+    color: #ffffff;
     background-color: var(--txt-color);
 }
 .btn i{
