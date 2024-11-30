@@ -181,7 +181,6 @@ ul li a .txt-menu {
 }
 
 .btn{
-    position: absolute;
     margin-left: 50%;
     margin-top: 44%;
     display: flex;
@@ -299,6 +298,51 @@ ul li a .txt-menu {
 
 .experience {
     height: 25%;
+}
+.carousel {
+    position: relative;
+    width: 50%;
+    height: 50%;
+    overflow: hidden;
+    background-color: red;
+}
+
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.carousel-item {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.carousel-control-prev {
+    left: 10px;
+}
+
+.carousel-control-next {
+    right: 10px;
+}
+
+.teste{
+    width: 100%;
+    height: 100%;
+    background-color: #23c215;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
