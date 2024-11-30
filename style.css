@@ -192,6 +192,7 @@ ul li a .txt-menu {
     background-color: var(--color-12);
     cursor: pointer;
     transition: all 0.8s ease;
+    position: absolute;
 }
 .btn:hover {
     color: #ffffff;
@@ -230,9 +231,9 @@ ul li a .txt-menu {
 
 .wrapper {
     width: 50%;
-    height: 53%;
+    height: 50%;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
-    margin: 3rem auto;
+    margin: 4rem auto;
     overflow: hidden;
     margin-top: 50px;
     margin-left: 50%;
