@@ -299,14 +299,13 @@ ul li a .txt-menu {
 
 .experience {
     height: 25%;
-    background-color: #2383dd;
 }
 .carousel {
     position: relative;
-    width: 40%;
+    width: 30%;
     height: 500px;
     overflow: hidden;
-    margin-top: 5%;
+    margin-top: 100px;
     margin-left: 40%;
     transform: translateX(-40%);
 }
@@ -324,12 +323,19 @@ ul li a .txt-menu {
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
-    background-color: #23c215;
 }
 .cart{
-    width: 150px;
-    height: 150px;
-    background-color: #643fe9;
+    width: 200px;
+    height: 300px;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    background-color: var(--bg-black-100);
+}
+.cart img{
+    width: 80%;
+    height: 60%;
+    border-radius: 50%;
 }
 .carousel-control-prev, .carousel-control-next {
     position: absolute;
@@ -337,11 +343,15 @@ ul li a .txt-menu {
     transform: translateY(-50%);
     background-color: rgba(0, 0, 0, 0.5);
     border: none;
+    border-radius: 50%;
     color: white;
-    padding: 10px;
+    padding: 12px;
     cursor: pointer;
 }
-
+.carousel-control-prev:hover, .carousel-control-next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: all 0.5s ease;
+}
 .carousel-control-prev {
     left: 10px;
 }
