@@ -172,7 +172,7 @@ ul li a .txt-menu {
 
 .img-eu img{
     width: 30vh;
-    border-radius: 2%;
+    border-radius: 9%;
     transition: all 0.8s ease;
 }
 .img-eu img:hover{
@@ -222,6 +222,15 @@ ul li a .txt-menu {
 
 .container-about {
     height: 25%;
+    transition: all 1s ease;
+    background-color: #2383dd;
+}
+.container-about.expandir{
+    margin-left: 200px;
+    transition: all 1s ease;
+}
+.about{
+    margin-left: 250px;
 }
 .about p{
     font-size: 20px;
@@ -238,6 +247,7 @@ ul li a .txt-menu {
     margin-top: 50px;
     margin-left: 50%;
     transform: translateX(-40%);
+    position: absolute;
 }
 
 .wrapper-holder {
@@ -325,16 +335,17 @@ ul li a .txt-menu {
     box-sizing: border-box;
 }
 .cart{
-    width: 200px;
-    height: 300px;
+    width: 250px;
+    height: 450px;
     border-radius: 10%;
     display: flex;
     justify-content: center;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.4);
     background-color: var(--bg-black-100);
 }
 .cart img{
-    width: 80%;
-    height: 60%;
+    width: 60%;
+    height: 40%;
     border-radius: 50%;
 }
 .carousel-control-prev, .carousel-control-next {
