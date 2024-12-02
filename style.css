@@ -39,7 +39,7 @@ body {
 }
 
 .container-menu.expandir {
-    width: 34vh; /* Ajuste este valor para a largura desejada do menu expandido */   
+    width: 34vh;   
 }
 
 ul {
