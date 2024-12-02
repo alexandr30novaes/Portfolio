@@ -223,7 +223,6 @@ ul li a .txt-menu {
 .container-about {
     height: 25%;
     transition: all 1s ease;
-    background-color: #2383dd;
 }
 .container-about.expandir{
     margin-left: 200px;
@@ -231,6 +230,8 @@ ul li a .txt-menu {
 }
 .about{
     margin-left: 250px;
+    margin-top: 5%;
+    position: absolute;
 }
 .about p{
     font-size: 20px;
@@ -244,7 +245,7 @@ ul li a .txt-menu {
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
     margin: 4rem auto;
     overflow: hidden;
-    margin-top: 50px;
+    margin-top: 250px;
     margin-left: 50%;
     transform: translateX(-40%);
     position: absolute;
@@ -310,6 +311,13 @@ ul li a .txt-menu {
 .experience {
     height: 25%;
 }
+
+.container-experience p{
+    font-family: "sour gummy", sans-serif;
+    font-size: 20PX;
+
+}
+
 .carousel {
     position: relative;
     width: 30%;
@@ -380,6 +388,15 @@ ul li a .txt-menu {
     align-items: center;
 }
 
+/*---------------------------------Development-----------------------------------*/
 
+.development {
+    height: 25%;
+}
+
+.container-development p{
+    font-family: "sour gummy", sans-serif;
+    font-size: 20PX;
+}
 
 
