@@ -240,10 +240,10 @@ ul li a .txt-menu {
 }
 
 .wrapper {
-    width: 50%;
+    width: 950px;
     height: 50%;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
-    margin: 4rem auto;
+    margin: 3rem auto;
     overflow: hidden;
     margin-top: 250px;
     margin-left: 50%;
