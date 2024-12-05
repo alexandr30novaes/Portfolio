@@ -11,10 +11,12 @@ function toggleMenu() {
     const menuLateral = document.getElementById('menuLateral');
     const homePage = document.getElementById('homePage');
     const aboutPage = document.getElementById('aboutPage');
-    if (menuLateral && homePage && aboutPage) {
+    const experiencePage = document.getElementById('experiencePage');
+    if (menuLateral && homePage && aboutPage && experiencePage) {
         menuLateral.classList.toggle('expandir');
         homePage.classList.toggle('expandir');
         aboutPage.classList.toggle('expandir');
+        experiencePage.classList.toggle('expandir');
     } else {
         console.error('Elementos não encontrados');
     }
