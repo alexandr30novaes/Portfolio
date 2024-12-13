@@ -390,8 +390,15 @@ ul li a .txt-menu {
     height: 220px;
     text-align: center;
     font-family: "sour gummy", sans-serif;
+    font-size: 25px;
     margin-top: 200px;
     position: absolute;
+}
+.especification p {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    padding: 3px;
+    margin-top: 3px;
 }
 
 /*---------------------------------Development-----------------------------------*/
