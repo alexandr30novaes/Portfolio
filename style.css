@@ -311,6 +311,7 @@ ul li a .txt-menu {
 .experience {
     height: 25%;
     transition: all 1s ease;
+    
 }
 .experience.expandir{
     margin-left: 200px;
@@ -319,17 +320,20 @@ ul li a .txt-menu {
 .container-experience {
     margin-left: 250px;
     margin-top: 5%;
+    position: absolute;
 }
 .container-experience p{
     font-family: "sour gummy", sans-serif;
     font-size: 20PX;
+    text-indent: 35px;
+    margin-top: 15px;
 }
 
 .carousel {
     width: 30%;
     height: 500px;
     overflow: hidden;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-left: 40%;
     transform: translateX(-40%);
 }
@@ -388,23 +392,28 @@ ul li a .txt-menu {
 .especification {
     width: 250px;
     height: 220px;
-    text-align: center;
     font-family: "sour gummy", sans-serif;
     font-size: 25px;
     margin-top: 200px;
     position: absolute;
 }
+.especification h3 {
+    text-align: center;
+}
 .especification p {
+    width: 90%;
     font-family: "Roboto", sans-serif;
     font-size: 18px;
-    padding: 3px;
+    padding: 5px;
     margin-top: 3px;
+    text-align: center;
 }
 
 /*---------------------------------Development-----------------------------------*/
 
 .development {
     height: 25%;
+    position: absolute;
 }
 
 .container-development p{
