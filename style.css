@@ -310,8 +310,7 @@ ul li a .txt-menu {
 
 .experience {
     height: 25%;
-    transition: all 1s ease;
-    
+    transition: all 1s ease; 
 }
 .experience.expandir{
     margin-left: 200px;
@@ -374,7 +373,7 @@ ul li a .txt-menu {
     border: none;
     border-radius: 50%;
     color: white;
-    padding: 12px;
+    padding: 11px;
     cursor: pointer;
 }
 .carousel-control-prev:hover, .carousel-control-next:hover {
@@ -412,11 +411,14 @@ ul li a .txt-menu {
 /*---------------------------------Development-----------------------------------*/
 
 .development {
-    width: 100%;
-    height: 100vh;
-    position: absolute;
+    height: 25%;
     margin-top: 7%;
+    transition: all 1s ease;
 
+}
+.development.expandir{
+    margin-left: 200px;
+    transition: all 1s ease;
 }
 
 .container-development p{

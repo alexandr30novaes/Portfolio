@@ -12,11 +12,13 @@ function toggleMenu() {
     const homePage = document.getElementById('homePage');
     const aboutPage = document.getElementById('aboutPage');
     const experiencePage = document.getElementById('experiencePage');
-    if (menuLateral && homePage && aboutPage && experiencePage) {
+    const developmentPage = document.getElementById('developmentPage');
+    if (menuLateral && homePage && aboutPage && experiencePage && developmentPage) {
         menuLateral.classList.toggle('expandir');
         homePage.classList.toggle('expandir');
         aboutPage.classList.toggle('expandir');
         experiencePage.classList.toggle('expandir');
+        developmentPage.classList.toggle('expandir');
     } else {
         console.error('Elementos não encontrados');
     }
