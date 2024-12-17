@@ -324,9 +324,9 @@ ul li a .txt-menu {
 }
 .container-experience p{
     font-family: "sour gummy", sans-serif;
-    font-size: 20PX;
+    font-size: 20px;
     text-indent: 35px;
-    margin-top: 15px;
+    margin-top: 12px;
 }
 
 .carousel {
@@ -415,6 +415,7 @@ ul li a .txt-menu {
     width: 100%;
     height: 100vh;
     position: absolute;
+    margin-top: 7%;
 
 }
 
