@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home2/gtpare02/public_html/Portfolio
+    - /bin/cp -r * $DEPLOYPATH
