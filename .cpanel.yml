@@ -2,4 +2,6 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home2/gtpare02/public_html/Portfolio
+    - echo "Starting deployment to $DEPLOYPATH"
     - /bin/cp -r * $DEPLOYPATH
+    - echo "Deployment finished to $DEPLOYPATH"
