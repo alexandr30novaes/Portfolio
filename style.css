@@ -8,6 +8,7 @@
 body {
     height: 450vh;
     background-color: var(--bg-black-900);
+    overflow-x: hidden;
 }
 .position{
     margin-left: 20%;
