@@ -6,7 +6,7 @@
 }
 
 body {
-    height: 400vh;
+    height: 500vh;
     background-color: var(--bg-black-900);
 
 }
@@ -123,7 +123,7 @@ ul li a .txt-menu {
 
 /*-----------------------------------home-page-----------------------------------*/
 .home {
-    height: 25%;
+    height: 100vh;
     display: flex;
 }
 .container-home p {
@@ -166,7 +166,7 @@ ul li a .txt-menu {
 
 .img-eu{
     position: absolute;
-    margin-left: 60%;
+    margin-left: 65%;
     margin-top: 9%;
 }
 
@@ -221,7 +221,7 @@ ul li a .txt-menu {
 /*-----------------------------------about-----------------------------------*/
 
 .container-about {
-    height: 25%;
+    height: 100vh;
     transition: all 1s ease;
 }
 .container-about.expandir{
@@ -309,8 +309,9 @@ ul li a .txt-menu {
 /*---------------------------------experience-----------------------------------*/
 
 .experience {
-    height: 25%;
+    height: 100vh;
     transition: all 1s ease; 
+    background-color: red;
 }
 .experience.expandir{
     margin-left: 200px;
@@ -411,7 +412,7 @@ ul li a .txt-menu {
 /*---------------------------------Development-----------------------------------*/
 
 .development {
-    height: 25%;
+    height: 100vh;
     margin-top: 7%;
     transition: all 1s ease;
 
