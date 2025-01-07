@@ -309,24 +309,32 @@ ul li a .txt-menu {
 /*---------------------------------experience-----------------------------------*/
 
 .experience {
-    height: 100vh;
+    height: 180vh;
     transition: all 1s ease; 
-    background-color: red;
 }
 .experience.expandir{
     margin-left: 200px;
     transition: all 1s ease;
 }
 .container-experience {
+    width: 100%;
+    height: 180%;
     margin-left: 250px;
     margin-top: 5%;
     position: absolute;
+    display: flex;
+    background-color: #2383dd;
+}
+.experience h1 {
+    margin-left: 250px;
 }
 .container-experience p{
     font-family: "sour gummy", sans-serif;
     font-size: 20px;
+    width: 250px;
     text-indent: 35px;
     margin-top: 12px;
+    background-color: red;
 }
 
 .carousel {
@@ -334,7 +342,6 @@ ul li a .txt-menu {
     height: 500px;
     overflow: hidden;
     margin-top: 50px;
-    margin-left: 50%;
     transform: translateX(-40%);
 }
 
@@ -415,7 +422,7 @@ ul li a .txt-menu {
     height: 100vh;
     margin-top: 7%;
     transition: all 1s ease;
-
+    background-color: #643fe9;
 }
 .development.expandir{
     margin-left: 200px;
