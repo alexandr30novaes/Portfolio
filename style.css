@@ -6,9 +6,8 @@
 }
 
 body {
-    height: 500vh;
+    height: 450vh;
     background-color: var(--bg-black-900);
-
 }
 .position{
     margin-left: 20%;
@@ -221,7 +220,7 @@ ul li a .txt-menu {
 /*-----------------------------------about-----------------------------------*/
 
 .container-about {
-    height: 100vh;
+    height: 120vh;
     transition: all 1s ease;
 }
 .container-about.expandir{
@@ -230,7 +229,6 @@ ul li a .txt-menu {
 }
 .about{
     margin-left: 250px;
-    margin-top: 5%;
     position: absolute;
 }
 .about p{
@@ -240,12 +238,12 @@ ul li a .txt-menu {
 }
 
 .wrapper {
-    width: 950px;
-    height: 50%;
+    width: 70%;
+    height: 65%;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
     margin: 3rem auto;
     overflow: hidden;
-    margin-top: 250px;
+    margin-top: 200px;
     margin-left: 50%;
     transform: translateX(-40%);
     position: absolute;
@@ -309,7 +307,7 @@ ul li a .txt-menu {
 /*---------------------------------experience-----------------------------------*/
 
 .experience {
-    height: 180vh;
+    height: 100vh;
     transition: all 1s ease; 
 }
 .experience.expandir{
@@ -318,12 +316,10 @@ ul li a .txt-menu {
 }
 .container-experience {
     width: 100%;
-    height: 180%;
+    height: 100%;
     margin-left: 250px;
-    margin-top: 5%;
     position: absolute;
     display: flex;
-    background-color: #2383dd;
 }
 .experience h1 {
     margin-left: 250px;
@@ -331,17 +327,18 @@ ul li a .txt-menu {
 .container-experience p{
     font-family: "sour gummy", sans-serif;
     font-size: 20px;
-    width: 250px;
+    width: 500px;
     text-indent: 35px;
+    text-align: justify;
     margin-top: 12px;
-    background-color: red;
 }
 
 .carousel {
     width: 30%;
     height: 500px;
     overflow: hidden;
-    margin-top: 50px;
+    margin-top: 10px;
+    margin-left: 12%;
     transform: translateX(-40%);
 }
 
