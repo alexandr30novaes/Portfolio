@@ -159,11 +159,6 @@ ul li a .txt-menu {
     color: var(--color-12);
     font-family: "Sour Gummy", sans-serif;
 }
-.home.expandir{
-    margin-left: 200px;
-    transition: all 1s ease;
-}
-
 .img-eu{
     position: absolute;
     margin-left: 65%;
@@ -221,26 +216,23 @@ ul li a .txt-menu {
 /*-----------------------------------about-----------------------------------*/
 
 .container-about {
-    height: 120vh;
-    transition: all 1s ease;
-}
-.container-about.expandir{
-    margin-left: 200px;
-    transition: all 1s ease;
+    height: 25%;
 }
 .about{
     margin-left: 250px;
     position: absolute;
 }
 .about p{
+    width: 90%;
     font-size: 20px;
     font-family: "sour gummy", sans-serif;
     text-indent: 35px;
+    text-align: justify;
 }
 
 .wrapper {
-    width: 70%;
-    height: 65%;
+    width: 50%;
+    height: 50%;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
     margin: 3rem auto;
     overflow: hidden;
@@ -252,11 +244,11 @@ ul li a .txt-menu {
 
 .wrapper-holder {
     display: grid;
-    grid-template-columns: repeat(6, 100%); /* 6 colunas para 6 imagens */
+    grid-template-columns: repeat(6, 100%); /* Ajuste fino para colunas */
     height: 100%;
     width: 100%; /* Ajuste para considerar todas as imagens */
-    animation: slider 50s ease-in-out infinite;
-    transition: transform 0.7s ease;
+    animation: slider 50s ease-in-out infinite; /* Duracao reduzida para 20 segundos */
+    transition: transform 1s ease;
     cursor: pointer;
 }
 
@@ -265,7 +257,9 @@ ul li a .txt-menu {
     background-position: center;
     width: 100%;
     height: 100%;
-    transition: transform 0.7s ease;
+    transition: transform 1s ease;
+    padding: 0; 
+    margin: 0;
 }
 
 .wrapper-holder div:hover {
@@ -291,7 +285,6 @@ ul li a .txt-menu {
 #slider-img-5 {
     background-image: url(/img/IMG-05.png);
 }
-
 #slider-img-6 {
     background-image: url(/img/IMG-06.png);
 }
@@ -305,15 +298,12 @@ ul li a .txt-menu {
     83.33% { transform: translateX(-500%); }
     100% { transform: translateX(0%); } /* Volta para a primeira imagem sem espaço em branco */
 }
+
 /*---------------------------------experience-----------------------------------*/
 
 .experience {
     height: 100vh;
     transition: all 1s ease; 
-}
-.experience.expandir{
-    margin-left: 200px;
-    transition: all 1s ease;
 }
 .container-experience {
     width: 100%;
@@ -387,11 +377,11 @@ ul li a .txt-menu {
     transition: all 0.5s ease;
 }
 .carousel-control-prev {
-    left: 10px;
+    left: 60px;
 }
 
 .carousel-control-next {
-    right: 10px;
+    right: 60px;
 }
 
 .especification {
