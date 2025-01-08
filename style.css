@@ -31,7 +31,7 @@ body {
 /*-----------------------------------menu lateral-----------------------------------*/
 .container-menu {
     height: 100%;
-    width: 9%;
+    width: 7%;
     background-color: var(--bg-black-900);
     position: fixed;
     transition: width 1s ease;
@@ -39,7 +39,7 @@ body {
 }
 
 .container-menu.expandir {
-    width: 34vh;   
+    width: 24vh;   
 }
 
 ul {
@@ -66,19 +66,18 @@ ul {
 }
 
 ul li.item-menu a .icon {
-    margin-left: 40px;
+    margin-left: 19px;
 }
 
 ul li.item-menu a .icon i {
     font-size: 30px;
-    margin-right: 30px;
 }
 
 ul li a .txt-menu {
     font-family: "Sour Gummy", sans-serif;
-    font-size: 25px;
-    margin-left: 14px;
-    transition: opacity 0.6s, pointer-events 0.6s;
+    font-size: 20px;
+    margin-left: 10px;
+    transition: opacity 0.8s, pointer-events 0.8s;
     opacity: 0;
     pointer-events: none;
 }
