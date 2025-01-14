@@ -35,12 +35,12 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     //}
 //}
 
-//document.getElementById('btn-bounce').addEventListener('click', function() {
-    //this.classList.add('bounce');
-    //setTimeout(() => {
-        //this.classList.remove('bounce');
-    //}, 500);
-//});
+document.getElementById('btn-bounce').addEventListener('click', function() {
+    this.classList.add('bounce');
+    setTimeout(() => {
+        this.classList.remove('bounce');
+    }, 500);
+});
 
 /////////////// function carrosel //////////////////
 let currentIndex = 0;
