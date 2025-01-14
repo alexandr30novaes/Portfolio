@@ -8,7 +8,6 @@
 body {
     height: 450vh;
     background-color: var(--bg-black-900);
-    overflow-x: hidden;
 }
 .position{
     margin-left: 20%;
@@ -326,85 +325,47 @@ ul li a .txt-menu {
     margin-top: 12px;
 }
 
-.carousel {
-    width: 30%;
-    height: 500px;
-    overflow: hidden;
-    margin-top: 10px;
-    margin-left: 12%;
-    transform: translateX(-40%);
-}
-
-.carousel-inner {
-    display: flex;
-    transition: transform 0.5s ease;
-}
-
-.carousel-item {
-    min-width: 100%;
-    height: 500px;
-    flex-shrink: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
-}
-.cart{
-    width: 250px;
-    height: 450px;
-    border-radius: 10%;
-    display: flex;
-    justify-content: center;
-    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.4);
-    background-color: var(--bg-black-100);
-}
-.cart img{
-    width: 60%;
-    height: 40%;
+.container-carrosel { 
+    width: 80%; 
+    overflow: hidden; 
+    position: relative;
+    margin-top: 20px; 
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
+} 
+.carrosel { 
+    display: flex; 
+    transition: transform 0.5s ease; 
+    cursor: grab;
+    height: 80vh;
+} 
+.carrosel .card { 
+    min-width: 100%; 
+    box-sizing: border-box; 
+    padding: 20px; 
+    text-align: center; 
+    background-color: #f0f0f0; 
+} 
+.carrosel .card h2 { 
+    margin: 0; 
+} 
+.botao-anterior, .botao-proximo { 
+    position: absolute; 
+    top: 50%; 
+    transform: translateY(-50%); 
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white; 
+    border: none; 
+    padding: 10px; 
+    cursor: pointer; 
     border-radius: 50%;
-}
-.carousel-control-prev, .carousel-control-next {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    border: none;
-    border-radius: 50%;
-    color: white;
-    padding: 11px;
-    cursor: pointer;
-}
-.carousel-control-prev:hover, .carousel-control-next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-    transition: all 0.5s ease;
-}
-.carousel-control-prev {
-    left: 60px;
+} 
+.botao-anterior { 
+    left: 10px; 
+} 
+.botao-proximo { 
+    right: 10px; 
 }
 
-.carousel-control-next {
-    right: 60px;
-}
-
-.especification {
-    width: 250px;
-    height: 220px;
-    font-family: "sour gummy", sans-serif;
-    font-size: 25px;
-    margin-top: 200px;
-    position: absolute;
-}
-.especification h3 {
-    text-align: center;
-}
-.especification p {
-    width: 90%;
-    font-family: "Roboto", sans-serif;
-    font-size: 18px;
-    padding: 5px;
-    margin-top: 3px;
-    text-align: center;
-}
 
 /*---------------------------------Development-----------------------------------*/
 

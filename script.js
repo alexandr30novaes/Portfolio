@@ -17,7 +17,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-/////////////// function expandir conteudo tela //////////////////
+/////////////// function expandir conteudo tela para direita quando menu aberto //////////////////
 //function toggleMenu() {
     //const menuLateral = document.getElementById('menuLateral');
     //const homePage = document.getElementById('homePage');
@@ -42,20 +42,23 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     //}, 500);
 //});
 
-/////////////// function carrusel //////////////////
+/////////////// function carrosel //////////////////
 let currentIndex = 0;
 
 function showSlide(index) {
-    const slides = document.querySelectorAll('.carousel-item');
-    if (index >= slides.length) {
+    const slides = document.querySelectorAll('.carrosel .card');
+    const totalSlides = slides.length;
+    
+    if (index >= totalSlides) {
         currentIndex = 0;
     } else if (index < 0) {
-        currentIndex = slides.length - 1;
+        currentIndex = totalSlides - 1;
     } else {
         currentIndex = index;
     }
+    
     const offset = -currentIndex * 100;
-    document.querySelector('.carousel-inner').style.transform = `translateX(${offset}%)`;
+    document.querySelector('.carrosel').style.transform = `translateX(${offset}%)`;
 }
 
 function nextSlide() {
@@ -65,3 +68,6 @@ function nextSlide() {
 function prevSlide() {
     showSlide(currentIndex - 1);
 }
+
+// Inicializando o carrossel
+showSlide(currentIndex);
