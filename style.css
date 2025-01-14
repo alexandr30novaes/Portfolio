@@ -311,7 +311,6 @@ ul li a .txt-menu {
     height: 100%;
     margin-left: 250px;
     position: absolute;
-    display: flex;
 }
 .experience h1 {
     margin-left: 250px;
@@ -319,14 +318,15 @@ ul li a .txt-menu {
 .container-experience p{
     font-family: "sour gummy", sans-serif;
     font-size: 20px;
-    width: 500px;
+    width: 900px;
     text-indent: 35px;
     text-align: justify;
     margin-top: 12px;
 }
 
 .container-carrosel { 
-    width: 80%; 
+    width: 70%; 
+    height: 50%;
     overflow: hidden; 
     position: relative;
     margin-top: 20px; 
