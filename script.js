@@ -6,6 +6,17 @@ btn.addEventListener("click", function(){
     menu.classList.toggle("expandir")
 });
 
+//scroll menu lateral
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+  
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+
 /////////////// function expandir conteudo tela //////////////////
 //function toggleMenu() {
     //const menuLateral = document.getElementById('menuLateral');
@@ -24,12 +35,12 @@ btn.addEventListener("click", function(){
     //}
 //}
 
-document.getElementById('btn-bounce').addEventListener('click', function() {
-    this.classList.add('bounce');
-    setTimeout(() => {
-        this.classList.remove('bounce');
-    }, 500);
-});
+//document.getElementById('btn-bounce').addEventListener('click', function() {
+    //this.classList.add('bounce');
+    //setTimeout(() => {
+        //this.classList.remove('bounce');
+    //}, 500);
+//});
 
 /////////////// function carrusel //////////////////
 let currentIndex = 0;

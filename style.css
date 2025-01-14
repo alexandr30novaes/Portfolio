@@ -29,6 +29,9 @@ body {
     --txt-color: #000000;
 }
 /*-----------------------------------menu lateral-----------------------------------*/
+.main {
+    transition: all 1s ease;
+}
 .container-menu {
     height: 100%;
     width: 7%;
@@ -39,7 +42,7 @@ body {
 }
 
 .container-menu.expandir {
-    width: 24vh;   
+    width: 26vh;   
 }
 
 ul {
@@ -54,7 +57,7 @@ ul {
     color: black;
     display: flex;
     align-items: center;
-    padding: 40px 0 40px 1%;
+    padding: 30px 0 30px 1%;
     font-size: 20px;
     transition: background-color 0.3s;
     line-height: 10px;
@@ -66,11 +69,11 @@ ul {
 }
 
 ul li.item-menu a .icon {
-    margin-left: 19px;
+    margin-left: 5px;
 }
 
 ul li.item-menu a .icon i {
-    font-size: 30px;
+    font-size: 20px;
 }
 
 ul li a .txt-menu {
@@ -96,7 +99,7 @@ ul li a .txt-menu {
 }
 
 .logo img {
-    width: 16vh;
+    width: 14vh;
     border-radius: 50%;
 }
 
