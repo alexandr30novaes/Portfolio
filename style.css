@@ -7,7 +7,6 @@
 
 body {
     height: 450vh;
-    overflow-x: hidden;
     background-color: var(--bg-black-900);
 }
 .position{
@@ -34,7 +33,7 @@ body {
 }
 .container-menu {
     height: 100%;
-    width: 7%;
+    width: 80px;
     background-color: var(--bg-black-900);
     position: fixed;
     transition: width 1s ease;
@@ -42,7 +41,7 @@ body {
 }
 
 .container-menu.expandir {
-    width: 26vh;   
+    width: 25vh;   
 }
 
 ul {
@@ -52,34 +51,37 @@ ul {
     padding: 0;
 }
 
+.item-menu {
+    width: 100%;
+}
 .item-menu a {
+    width: 100%;
+    height: 60px;
     text-decoration: none;
     color: black;
     display: flex;
     align-items: center;
-    padding: 30px 0 30px 1%;
     font-size: 20px;
     transition: background-color 0.3s;
     line-height: 10px;
-    margin-left: 30px;
 }
-
 .item-menu a:hover {
     background-color: #ffffff;
 }
 
 ul li.item-menu a .icon {
-    margin-left: 5px;
+    margin-left: 26px;
 }
 
 ul li.item-menu a .icon i {
-    font-size: 20px;
+    font-size: 25px;
+    margin-right: 10px;
+    cursor: pointer;
 }
 
 ul li a .txt-menu {
     font-family: "Sour Gummy", sans-serif;
     font-size: 20px;
-    margin-left: 10px;
     transition: opacity 0.8s, pointer-events 0.8s;
     opacity: 0;
     pointer-events: none;
@@ -99,7 +101,7 @@ ul li a .txt-menu {
 }
 
 .logo img {
-    width: 14vh;
+    width: 13vh;
     border-radius: 50%;
 }
 
@@ -308,8 +310,8 @@ ul li a .txt-menu {
     transition: all 1s ease; 
 }
 .container-experience {
-    width: 100%;
-    height: 100%;
+    width: 70%;
+    height: 90%;
     margin-left: 250px;
     position: absolute;
 }
@@ -319,7 +321,7 @@ ul li a .txt-menu {
 .container-experience p{
     font-family: "sour gummy", sans-serif;
     font-size: 20px;
-    width: 900px;
+    width: 100%;
     text-indent: 35px;
     text-align: justify;
     margin-top: 12px;
@@ -332,6 +334,7 @@ ul li a .txt-menu {
     position: relative;
     margin-top: 20px; 
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
+    margin-left: 15%;
 } 
 .carrosel { 
     display: flex; 
