@@ -101,7 +101,7 @@ ul li a .txt-menu {
 }
 
 .logo img {
-    width: 13vh;
+    width: 12vh;
     border-radius: 50%;
 }
 
@@ -397,4 +397,20 @@ ul li a .txt-menu {
 .container-end {
     height: 30vh;
     background-color: #000000;
+}
+
+/*----------------------------whats----------------------------*/
+.whats a{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    color: #35c40a;
+    text-align: center;
+    font-size: 60px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.whats a:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease;
 }
