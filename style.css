@@ -377,7 +377,6 @@ ul li a .txt-menu {
     height: 100vh;
     margin-top: 7%;
     transition: all 1s ease;
-    background-color: #643fe9;
 }
 .development.expandir{
     margin-left: 200px;
@@ -391,4 +390,11 @@ ul li a .txt-menu {
 
 .container-development {
     margin-left: 250px;
+}
+
+/*---------------------------------End-----------------------------------*/
+
+.container-end {
+    height: 30vh;
+    background-color: #000000;
 }
