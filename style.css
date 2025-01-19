@@ -319,7 +319,7 @@ ul li a .txt-menu {
 }
 
 #slider-img-1 {
-    background-image: url(/img/IMG-01.png);
+    background-image: url(/img/instituto.png);
 }
 
 #slider-img-2 {
@@ -338,7 +338,7 @@ ul li a .txt-menu {
     background-image: url(/img/IMG-05.png);
 }
 #slider-img-6 {
-    background-image: url(/img/IMG-06.png);
+    background-image: url(/img/IMG-01.png);
 }
 
 @keyframes slider {
