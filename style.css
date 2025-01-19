@@ -284,11 +284,11 @@ ul li a .txt-menu {
 
 .wrapper {
     width: 50%;
-    height: 50%;
+    height: 70%;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
     margin: 3rem auto;
     overflow: hidden;
-    margin-top: 200px;
+    margin-top: 150px;
     margin-left: 50%;
     transform: translateX(-40%);
     position: absolute;
@@ -358,7 +358,7 @@ ul li a .txt-menu {
     transition: all 1s ease; 
 }
 .container-experience {
-    width: 70%;
+    width: 80%;
     height: 90%;
     margin-left: 250px;
     position: absolute;
