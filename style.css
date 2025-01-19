@@ -33,7 +33,7 @@ body {
 }
 .container-menu {
     height: 100%;
-    width: 80px;
+    width: 100px;
     background-color: var(--bg-black-900);
     position: fixed;
     transition: width 1s ease;
@@ -70,7 +70,7 @@ ul {
 }
 
 ul li.item-menu a .icon {
-    margin-left: 26px;
+    margin-left: 35px;
 }
 
 ul li.item-menu a .icon i {
@@ -376,10 +376,6 @@ ul li a .txt-menu {
 .development {
     height: 100vh;
     margin-top: 7%;
-    transition: all 1s ease;
-}
-.development.expandir{
-    margin-left: 200px;
     transition: all 1s ease;
 }
 
