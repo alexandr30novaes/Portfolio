@@ -70,7 +70,7 @@ ul {
 }
 
 ul li.item-menu a .icon {
-    margin-left: 34px;
+    margin-left: 32px;
 }
 
 ul li.item-menu a .icon i {
@@ -139,21 +139,21 @@ ul li a .txt-menu {
 .git i {
     text-decoration: none;
     color: #000000;
-    font-size: 2rem;
+    font-size: 25px;
     margin-right: 10px;
     transition: all 0.6s ease;
 }
 .link i {
     text-decoration: none;
     color: #2383dd;
-    font-size: 2rem;
+    font-size: 25px;
     margin-right: 10px;
     transition: all 0.6s ease;
 }
 .cv i {
     text-decoration: none;
     color: #838080;
-    font-size: 2rem;
+    font-size: 25px;
     margin-right: 10px;
     transition: all 0.6s ease;
 }
