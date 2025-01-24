@@ -27,6 +27,25 @@ body {
     --color-12: #2383dd;
     --txt-color: #000000;
 }
+
+.hidden { /* Animação escroll*/
+    opacity: 0;
+    filter: blur(15px);
+    transform: translatey(100%);
+    transition: all 2s ease;
+}
+.anim {
+    opacity: 0;
+    filter: blur(15px);
+    transform: translatex(-100%);
+    transition: all 1s ease;
+}
+.show { /* Animação escroll*/
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+    transition: all 1s ease;
+}
 /*-----------------------------------menu lateral-----------------------------------*/
 .main {
     transition: all 1s ease;
@@ -179,8 +198,11 @@ ul li a .txt-menu {
     height: 100vh;
     display: flex;
 }
-.container-home p {
+.container-home {
+    width: 60%;
     margin-left: 20%;
+}
+.container-home p {
     font-size: 40px;
     font-family: "Sour Gummy", sans-serif;
     transition: all 1s ease;
@@ -189,7 +211,6 @@ ul li a .txt-menu {
     color: var(--color-12);
 }
 .container-home h1 {
-    margin-left: 20%;
     font-size: 30px;
     font-family: 'Roboto', sans-serif;
     transition: all 1s ease;
@@ -201,12 +222,11 @@ ul li a .txt-menu {
     font-family: "Sour Gummy", sans-serif;
 }
 .container-home h2 {
-    margin-left: 20%;
     font-size: 30px;
     font-family: 'Roboto', sans-serif;
     transition: all 1s ease;
     position: absolute;
-    margin-top: 11%;
+    margin-top: 12%;
 }
 .container-home h2 span{
     color: var(--color-12);
@@ -363,7 +383,6 @@ ul li a .txt-menu {
     height: 90%;
     margin-left: 250px;
     position: absolute;
-    background-color: #2383dd;
     display: flex;
     justify-content: center;
     align-items: center;

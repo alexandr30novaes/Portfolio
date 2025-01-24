@@ -71,3 +71,19 @@ function prevSlide() {
 
 // Inicializando o carrossel
 showSlide(currentIndex);
+
+
+// Animação escroll
+const elements = document.querySelectorAll('.hidden, .anim'); 
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('show');
+    } else {
+      entry.target.classList.remove('show');
+    }
+  });
+});
+
+elements.forEach((el) => observer.observe(el))
