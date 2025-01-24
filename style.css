@@ -277,7 +277,7 @@ ul li a .txt-menu {
 }
 .about p{
     width: 90%;
-    font-size: 20px;
+    font-size: 17px;
     font-family: "sour gummy", sans-serif;
     text-indent: 35px;
     text-align: justify;
@@ -300,7 +300,7 @@ ul li a .txt-menu {
     grid-template-columns: repeat(6, 100%); /* Ajuste fino para colunas */
     height: 100%;
     width: 100%; /* Ajuste para considerar todas as imagens */
-    animation: slider 50s ease-in-out infinite; /* Duracao reduzida para 20 segundos */
+    animation: slider 30s ease-in-out infinite; /* Duracao reduzida para 20 segundos */
     transition: transform 1s ease;
     cursor: pointer;
 }
@@ -359,31 +359,34 @@ ul li a .txt-menu {
     transition: all 1s ease; 
 }
 .container-experience {
-    width: 80%;
+    width: 70%;
     height: 90%;
     margin-left: 250px;
     position: absolute;
+    background-color: #2383dd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .experience h1 {
     margin-left: 250px;
 }
 .container-experience p{
     font-family: "sour gummy", sans-serif;
-    font-size: 20px;
+    font-size: 17px;
     width: 100%;
     text-indent: 35px;
     text-align: justify;
-    margin-top: 12px;
 }
 
 .container-carrosel { 
-    width: 70%; 
-    height: 50%;
+    width: 30%; 
+    height: 60%;
     overflow: hidden; 
     position: relative;
-    margin-top: 20px; 
+    margin-top: 2%; 
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
-    margin-left: 15%;
 } 
 .carrosel { 
     display: flex; 
@@ -398,6 +401,10 @@ ul li a .txt-menu {
     text-align: center; 
     background-color: #f0f0f0; 
 } 
+.card img {
+    width: 70%;
+    border-radius: 50%;
+}
 .carrosel .card h2 { 
     margin: 0; 
 } 
