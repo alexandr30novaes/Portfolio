@@ -195,7 +195,7 @@ ul li a .txt-menu {
 }
 /*-----------------------------------home-page-----------------------------------*/
 .home {
-    height: 120vh;
+    height: 130vh;
     display: flex;
 }
 .container-home {
@@ -426,12 +426,20 @@ ul li a .txt-menu {
     background-color: #f0f0f0; 
 } 
 .card img {
-    width: 70%;
-    border-radius: 50%;
+    width: 100%;
+    border-radius: 30%;
 }
 .carrosel .card h2 { 
     margin: 0; 
+}
+.carrosel .card h3 {
+    margin-top: 10px;
+    font-size: 15px;
 } 
+.carrosel .card h4 {
+    margin-top: 5px;
+    font-size: 12px;
+}
 .botao-anterior, .botao-proximo { 
     position: absolute; 
     top: 50%; 
