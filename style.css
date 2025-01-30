@@ -52,7 +52,7 @@ body {
 }
 .container-menu {
     height: 100%;
-    width: 8%;
+    width: 103px;
     background-color: var(--bg-black-900);
     position: fixed;
     transition: width 1s ease;
@@ -60,7 +60,7 @@ body {
 }
 
 .container-menu.expandir {
-    width: 25vh;   
+    width: 180px;   
 }
 
 ul {
@@ -426,7 +426,7 @@ ul li a .txt-menu {
     background-color: #f0f0f0; 
 } 
 .card img {
-    width: 100%;
+    width: 90%;
     border-radius: 30%;
 }
 .carrosel .card h2 { 
