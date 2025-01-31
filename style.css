@@ -289,11 +289,11 @@ ul li a .txt-menu {
 /*-----------------------------------about-----------------------------------*/
 
 .container-about {
-    height: 25%;
+    height: 100vh;
 }
 .about{
     margin-left: 250px;
-    position: absolute;
+    position: absolute; 
 }
 .about h1 {
     font-family: 'roboto', sans-serif;
@@ -307,13 +307,18 @@ ul li a .txt-menu {
     text-align: justify;
 }
 
+.container-wrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
 .wrapper {
     width: 60%;
     height: 50%;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
     margin: 3rem auto;
     overflow: hidden;
-    margin-top: 15%;
     margin-left: 50%;
     transform: translateX(-40%);
     position: absolute;
@@ -383,7 +388,7 @@ ul li a .txt-menu {
     transition: all 1s ease; 
 }
 .container-experience {
-    width: 70%;
+    width: 70%; 
     height: 90%;
     margin-left: 250px;
     position: absolute;
@@ -394,7 +399,6 @@ ul li a .txt-menu {
 }
 .experience h1 {
     margin-left: 250px;
-    margin-top: 20px;
 }
 .container-experience p{
     font-family: "sour gummy", sans-serif;
@@ -409,7 +413,7 @@ ul li a .txt-menu {
     height: 60%;
     overflow: hidden; 
     position: relative;
-    margin-top: 2%; 
+    margin-top: 20px; 
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
 } 
 .carrosel { 
