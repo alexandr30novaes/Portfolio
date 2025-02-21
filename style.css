@@ -307,80 +307,6 @@ ul li a .txt-menu {
     text-align: justify;
 }
 
-.container-wrapper {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-}
-.wrapper {
-    width: 60%;
-    height: 50%;
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
-    margin: 3rem auto;
-    overflow: hidden;
-    margin-left: 50%;
-    transform: translateX(-40%);
-    position: absolute;
-}
-
-.wrapper-holder {
-    display: grid;
-    grid-template-columns: repeat(6, 100%); /* Ajuste fino para colunas */
-    height: 100%;
-    width: 100%; /* Ajuste para considerar todas as imagens */
-    animation: slider 30s ease-in-out infinite; /* Duracao reduzida para 20 segundos */
-    transition: transform 1s ease;
-    cursor: pointer;
-}
-
-.wrapper-holder div {
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 100%;
-    transition: transform 1s ease;
-    padding: 0; 
-    margin: 0;
-}
-
-.wrapper-holder div:hover {
-    transform: scale(1.1);
-}
-
-#slider-img-1 {
-    background-image: url(/img/instituto.png);
-}
-
-#slider-img-2 {
-    background-image: url(/img/IMG-02.png);
-}
-
-#slider-img-3 {
-    background-image: url(/img/IMG-03.png);
-}
-
-#slider-img-4 {
-    background-image: url(/img/IMG-04.png);
-}
-
-#slider-img-5 {
-    background-image: url(/img/IMG-05.png);
-}
-#slider-img-6 {
-    background-image: url(/img/IMG-01.png);
-}
-
-@keyframes slider {
-    0% { transform: translateX(0%); }
-    16.66% { transform: translateX(-100%); }
-    33.33% { transform: translateX(-200%); }
-    50% { transform: translateX(-300%); }
-    66.66% { transform: translateX(-400%); }
-    83.33% { transform: translateX(-500%); }
-    100% { transform: translateX(0%); } /* Volta para a primeira imagem sem espaço em branco */
-}
-
 /*---------------------------------experience-----------------------------------*/
 
 .experience {
@@ -478,6 +404,78 @@ ul li a .txt-menu {
 
 .container-development {
     margin-left: 250px;
+}
+
+.container-wrapper {
+    height: 100%;
+    width: 100%;
+}
+.wrapper {
+    width: 60%;
+    height: 50%;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
+    margin: 3rem auto;
+    overflow: hidden;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+}
+
+.wrapper-holder {
+    display: grid;
+    grid-template-columns: repeat(6, 100%); /* Ajuste fino para colunas */
+    height: 100%;
+    width: 100%; /* Ajuste para considerar todas as imagens */
+    animation: slider 30s ease-in-out infinite; /* Duracao reduzida para 20 segundos */
+    transition: transform 1s ease;
+    cursor: pointer;
+}
+
+.wrapper-holder div {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    transition: transform 1s ease;
+    padding: 0; 
+    margin: 0;
+}
+
+.wrapper-holder div:hover {
+    transform: scale(1.1);
+}
+
+#slider-img-1 {
+    background-image: url(/img/instituto.png);
+}
+
+#slider-img-2 {
+    background-image: url(/img/IMG-02.png);
+}
+
+#slider-img-3 {
+    background-image: url(/img/IMG-03.png);
+}
+
+#slider-img-4 {
+    background-image: url(/img/IMG-04.png);
+}
+
+#slider-img-5 {
+    background-image: url(/img/IMG-05.png);
+}
+#slider-img-6 {
+    background-image: url(/img/IMG-01.png);
+}
+
+@keyframes slider {
+    0% { transform: translateX(0%); }
+    16.66% { transform: translateX(-100%); }
+    33.33% { transform: translateX(-200%); }
+    50% { transform: translateX(-300%); }
+    66.66% { transform: translateX(-400%); }
+    83.33% { transform: translateX(-500%); }
+    100% { transform: translateX(0%); } /* Volta para a primeira imagem sem espaço em branco */
 }
 
 /*---------------------------------End-----------------------------------*/
