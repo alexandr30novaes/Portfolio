@@ -513,7 +513,14 @@ ul li a .txt-menu {
     .container-menu {
         width: 70px;
     }
-    .button {
+    .button{
         display: none;
+    }
+    .logo img{
+        width: 70px;
+    }
+    ul li.item-menu a .icon {
+        margin-left: 20px;
+        margin-top: 2px;
     }
 }
