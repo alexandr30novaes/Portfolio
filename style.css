@@ -500,3 +500,20 @@ ul li a .txt-menu {
     transform: scale(1.1);
     transition: all 0.5s ease;
 }
+
+@media (max-width: 576px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        overflow-x: hidden;
+    }
+    /*----------------------------menu----------------------------*/ 
+    .container-menu {
+        width: 70px;
+    }
+    .button {
+        display: none;
+    }
+}
