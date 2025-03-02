@@ -303,6 +303,7 @@ ul li a .txt-menu {
 .about h1 {
     font-family: 'roboto', sans-serif;
     margin-top: 20px;
+    font-size: 30px;
 }
 .about p{
     width: 90%;
@@ -317,24 +318,28 @@ ul li a .txt-menu {
 
 .experience {
     height: 100vh;
-    transition: all 1s ease; 
+    display: flex;
+    justify-content: center;
 }
-.container-experience {
-    width: 70%; 
-    height: 90%;
-    margin-left: 250px;
-    position: absolute;
+.trabalhos {
+    width: 80%;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-.experience h1 {
-    margin-left: 250px;
+.trabalhos h1 {
+    font-family: 'roboto', sans-serif;
+    font-size: 30px;
+}
+.container-experience {
+    width: 70%; 
+    height: 90%;
 }
 .container-experience p{
     font-family: "sour gummy", sans-serif;
-    font-size: 17px;
+    font-size: 20px;
     width: 100%;
     text-indent: 35px;
     text-align: justify;
@@ -345,8 +350,9 @@ ul li a .txt-menu {
     height: 60%;
     overflow: hidden; 
     position: relative;
-    margin-top: 20px; 
+    margin-top: 50px; 
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
+    margin-left: 450px;
 } 
 .carrosel { 
     display: flex; 
@@ -362,7 +368,7 @@ ul li a .txt-menu {
     background-color: #f0f0f0; 
 } 
 .card img {
-    width: 90%;
+    width: 250px;
     border-radius: 30%;
 }
 .carrosel .card h2 { 
@@ -370,11 +376,11 @@ ul li a .txt-menu {
 }
 .carrosel .card h3 {
     margin-top: 10px;
-    font-size: 15px;
+    font-size: 17px;
 } 
 .carrosel .card h4 {
     margin-top: 5px;
-    font-size: 12px;
+    font-size: 17px;
 }
 .botao-anterior, .botao-proximo { 
     position: absolute; 
