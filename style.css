@@ -290,9 +290,14 @@ ul li a .txt-menu {
 
 .container-about {
     height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.sobre {
+    width: 60%;
+    height: 100vh;
 }
 .about{
-    margin-left: 250px;
     position: absolute; 
 }
 .about h1 {
@@ -305,6 +310,7 @@ ul li a .txt-menu {
     font-family: "sour gummy", sans-serif;
     text-indent: 35px;
     text-align: justify;
+    margin-top: 10px;
 }
 
 /*---------------------------------experience-----------------------------------*/
@@ -549,6 +555,18 @@ ul li a .txt-menu {
         margin-left: 50%;
         margin-top: 200%;
     }
+    /*----------------------------about----------------------------*/
+    .about h1 {
+        font-size: 20px;
+    }
+    .about p {
+        font-size: 15px;
+    }
     /*----------------------------experience----------------------------*/
-        
+    .experience h1 {
+        font-size: 20px;
+    }
+    .container-experience p {
+        font-size: 15px;
+    }
 }
