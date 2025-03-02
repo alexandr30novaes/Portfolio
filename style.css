@@ -570,9 +570,10 @@ ul li a .txt-menu {
     }
     /*----------------------------experience----------------------------*/
     .experience h1 {
-        font-size: 20px;
+        font-size: 17px;
     }
     .container-experience p {
-        font-size: 15px;
+        font-size: 11px;
     }
+    
 }
