@@ -4,7 +4,6 @@
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
-
 body {
     height: 450vh;
     background-color: var(--bg-black-900);
@@ -17,8 +16,6 @@ body {
     height: 100%;
     transition: margin-left 1s ease;
 }
-
-
 :root {
     --bg-black-900: #f2f2fc;
     --bg-black-100: #fdf9ff;
@@ -27,7 +24,6 @@ body {
     --color-12: #2383dd;
     --txt-color: #000000;
 }
-
 .hidden { /* Animação escroll*/
     opacity: 0;
     filter: blur(15px);
@@ -58,18 +54,15 @@ body {
     transition: width 1s ease;
     box-shadow: 3px 0 5px rgba(0, 0, 0, 0.1);
 }
-
 .container-menu.expandir {
     width: 180px;   
 }
-
 ul {
     margin-top: 50px;
     width: 100%;
     list-style-type: none;
     padding: 0;
 }
-
 .item-menu {
     width: 100%;
     justify-content: center;
@@ -88,17 +81,14 @@ ul {
 .item-menu a:hover {
     background-color: #ffffff;
 }
-
 ul li.item-menu a .icon {
     margin-left: 35px;
 }
-
 ul li.item-menu a .icon i {
     font-size: 25px;
     margin-right: 10px;
     cursor: pointer;
 }
-
 ul li a .txt-menu {
     font-family: "Sour Gummy", sans-serif;
     font-size: 17px;
@@ -106,12 +96,10 @@ ul li a .txt-menu {
     opacity: 0;
     pointer-events: none;
 }
-
 .container-menu.expandir .txt-menu {
     opacity: 1;
     pointer-events: auto;
 }
-
 .logo {
     width: 100%;
     height: 15%;
@@ -119,12 +107,10 @@ ul li a .txt-menu {
     justify-content: center;
     align-items: center;
 }
-
 .logo img {
     width: 110px;
     border-radius: 50%;
 }
-
 .button {
     display: flex;
     justify-content: center;
@@ -132,19 +118,16 @@ ul li a .txt-menu {
     width: 100%;
     height: 3%;
 }
-
 .button i {
     font-size: 2rem;
     transition: transform 0.8s, color 0.8s;
     cursor: pointer;
     margin-top: 50px;
 }
-
 .button i:hover {
     transform: scale(1.2);
     color: var(--color-12);
 }
-
 .container-redes {
     width: 100%;
     height: 15%;
@@ -237,7 +220,6 @@ ul li a .txt-menu {
     margin-left: 65%;
     margin-top: 10%;
 }
-
 .img-eu img{
     width: 60%;
     border-radius: 9%;
@@ -247,7 +229,6 @@ ul li a .txt-menu {
     transform: scale(1.1);
     transition: all 0.6s ease;
 }
-
 .btn{
     margin-left: 50%;
     margin-top: 45%;
@@ -282,12 +263,10 @@ ul li a .txt-menu {
         transform: translateY(15px);
     }
 }
-
 .bounce {
     animation: bounce 1s;
 }
 /*-----------------------------------about-----------------------------------*/
-
 .container-about {
     height: 100vh;
     display: flex;
@@ -313,38 +292,37 @@ ul li a .txt-menu {
     text-align: justify;
     margin-top: 10px;
 }
-
 /*---------------------------------experience-----------------------------------*/
-
 .experience {
     height: 100vh;
-    display: flex;
-    justify-content: center;
+    width: 90%;
+    margin-left: 10%;
 }
 .trabalhos {
-    width: 80%;
+    width: 90%;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    margin-left: 5%;
 }
 .trabalhos h1 {
     font-family: 'roboto', sans-serif;
-    font-size: 30px;
+    font-size: 28px;
 }
 .container-experience {
-    width: 70%; 
+    width: 90%; 
     height: 90%;
 }
 .container-experience p{
     font-family: "sour gummy", sans-serif;
-    font-size: 20px;
+    font-size: 15px;
     width: 100%;
     text-indent: 35px;
     text-align: justify;
+    margin-top: 10px;
 }
-
 .container-carrosel { 
     width: 30%; 
     height: 60%;
@@ -352,7 +330,7 @@ ul li a .txt-menu {
     position: relative;
     margin-top: 50px; 
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
-    margin-left: 450px;
+    margin-left: 350px;
 } 
 .carrosel { 
     display: flex; 
@@ -399,25 +377,19 @@ ul li a .txt-menu {
 .botao-proximo { 
     right: 10px; 
 }
-
-
 /*---------------------------------Development-----------------------------------*/
-
 .development {
     height: 100vh;
     margin-top: 7%;
     transition: all 1s ease;
 }
-
 .container-development p{
     font-family: "sour gummy", sans-serif;
     font-size: 20PX;
 }
-
 .container-development {
     margin-left: 250px;
 }
-
 .container-wrapper {
     height: 100%;
     width: 100%;
@@ -432,7 +404,6 @@ ul li a .txt-menu {
     transform: translateX(-50%);
     position: absolute;
 }
-
 .wrapper-holder {
     display: grid;
     grid-template-columns: repeat(6, 100%); /* Ajuste fino para colunas */
@@ -442,7 +413,6 @@ ul li a .txt-menu {
     transition: transform 1s ease;
     cursor: pointer;
 }
-
 .wrapper-holder div {
     background-size: cover;
     background-position: center;
@@ -452,34 +422,27 @@ ul li a .txt-menu {
     padding: 0; 
     margin: 0;
 }
-
 .wrapper-holder div:hover {
     transform: scale(1.1);
 }
-
 #slider-img-1 {
     background-image: url(/img/instituto.png);
 }
-
 #slider-img-2 {
     background-image: url(/img/IMG-02.png);
 }
-
 #slider-img-3 {
     background-image: url(/img/IMG-03.png);
 }
-
 #slider-img-4 {
     background-image: url(/img/IMG-04.png);
 }
-
 #slider-img-5 {
     background-image: url(/img/IMG-05.png);
 }
 #slider-img-6 {
     background-image: url(/img/IMG-01.png);
 }
-
 @keyframes slider {
     0% { transform: translateX(0%); }
     16.66% { transform: translateX(-100%); }
@@ -489,14 +452,11 @@ ul li a .txt-menu {
     83.33% { transform: translateX(-500%); }
     100% { transform: translateX(0%); } /* Volta para a primeira imagem sem espaço em branco */
 }
-
 /*---------------------------------End-----------------------------------*/
-
 .container-end {
     height: 30vh;
     background-color: #000000;
 }
-
 /*----------------------------whats----------------------------*/
 .whats a{
     position: fixed;
@@ -512,7 +472,6 @@ ul li a .txt-menu {
     transform: scale(1.1);
     transition: all 0.5s ease;
 }
-
 @media (max-width: 576px) {
     * {
         margin: 0;
@@ -574,6 +533,5 @@ ul li a .txt-menu {
     }
     .container-experience p {
         font-size: 11px;
-    }
-    
+    }   
 }
