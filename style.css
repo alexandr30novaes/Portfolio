@@ -273,11 +273,9 @@ ul li a .txt-menu {
     justify-content: center;
 }
 .sobre {
-    width: 60%;
+    width: 70%;
     height: 100vh;
-}
-.about{
-    position: absolute; 
+    margin-left: 100px;
 }
 .about h1 {
     font-family: 'roboto', sans-serif;
@@ -285,12 +283,28 @@ ul li a .txt-menu {
     font-size: 30px;
 }
 .about p{
-    width: 90%;
-    font-size: 17px;
+    width: 100%;
+    font-size: 15px;
     font-family: "sour gummy", sans-serif;
     text-indent: 35px;
     text-align: justify;
     margin-top: 10px;
+}
+.container-certificate {
+    background-color: #35c40a;
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+    text-align: center;
+}
+.certificate {
+    width: 30%;
+    height: 40%;
+    background-color: #2383dd;
+}
+.tecnologia { 
+    width: 30%;
+    height: 40%;
 }
 /*---------------------------------experience-----------------------------------*/
 .experience {
