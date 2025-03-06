@@ -8,10 +8,6 @@ body {
     height: 450vh;
     background-color: var(--bg-black-900);
 }
-.position{
-    margin-left: 20%;
-    margin-top: 5%;
-}
 .home {
     height: 100%;
     transition: margin-left 1s ease;
@@ -272,7 +268,7 @@ ul li a .txt-menu {
     display: flex;
     justify-content: center;
 }
-.sobre {
+.position {
     width: 70%;
     height: 100vh;
     margin-left: 100px;
@@ -305,29 +301,17 @@ ul li a .txt-menu {
 .tecnologia { 
     width: 30%;
     height: 40%;
+    background-color: #e93f3f;
 }
 /*---------------------------------experience-----------------------------------*/
 .experience {
     height: 100vh;
-    width: 90%;
-    margin-left: 10%;
-}
-.trabalhos {
-    width: 90%;
-    height: 100vh;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    margin-left: 5%;
 }
 .trabalhos h1 {
     font-family: 'roboto', sans-serif;
     font-size: 28px;
-}
-.container-experience {
-    width: 90%; 
-    height: 90%;
 }
 .container-experience p{
     font-family: "sour gummy", sans-serif;
@@ -338,19 +322,18 @@ ul li a .txt-menu {
     margin-top: 10px;
 }
 .container-carrosel { 
-    width: 30%; 
-    height: 60%;
+    width: 300px;
+    height: 60vh;
     overflow: hidden; 
     position: relative;
-    margin-top: 50px; 
+    margin-top: 50px;
+    margin-left: 30%; 
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
-    margin-left: 350px;
 } 
 .carrosel { 
-    display: flex; 
+    display: flex;  
     transition: transform 0.5s ease; 
     cursor: grab;
-    height: 80vh;
 } 
 .carrosel .card { 
     min-width: 100%; 
