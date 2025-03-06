@@ -12,6 +12,11 @@ body {
     height: 100%;
     transition: margin-left 1s ease;
 }
+.position {
+    width: 70%;
+    height: 100vh;
+    margin-left: 100px;
+}
 :root {
     --bg-black-900: #f2f2fc;
     --bg-black-100: #fdf9ff;
@@ -268,11 +273,6 @@ ul li a .txt-menu {
     display: flex;
     justify-content: center;
 }
-.position {
-    width: 70%;
-    height: 100vh;
-    margin-left: 100px;
-}
 .about h1 {
     font-family: 'roboto', sans-serif;
     margin-top: 20px;
@@ -293,15 +293,9 @@ ul li a .txt-menu {
     height: 80vh;
     text-align: center;
 }
-.certificate {
-    width: 30%;
-    height: 40%;
-    background-color: #2383dd;
-}
-.tecnologia { 
-    width: 30%;
-    height: 40%;
-    background-color: #e93f3f;
+.about-position {
+    width: 50%;
+    height: 100%;
 }
 /*---------------------------------experience-----------------------------------*/
 .experience {
@@ -334,6 +328,7 @@ ul li a .txt-menu {
     display: flex;  
     transition: transform 0.5s ease; 
     cursor: grab;
+    height: 100%;
 } 
 .carrosel .card { 
     min-width: 100%; 
