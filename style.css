@@ -321,6 +321,9 @@ ul li a .txt-menu {
 .fa-sass {
     color: rgba(255, 71, 175, 0.8);
 }
+.fa-bootstrap {
+    color: rgb(118, 2, 160);
+}
 /*---------------------------------experience-----------------------------------*/
 .experience {
     height: 100vh;
