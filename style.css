@@ -287,7 +287,6 @@ ul li a .txt-menu {
     margin-top: 10px;
 }
 .container-certificate {
-    background-color: #35c40a;
     display: flex;
     justify-content: center;
     height: 80vh;
@@ -296,6 +295,11 @@ ul li a .txt-menu {
 .about-position {
     width: 50%;
     height: 100%;
+    margin-top: 5%;
+}
+.freme i {
+    color: #2383dd;
+    font-size: 30px;
 }
 /*---------------------------------experience-----------------------------------*/
 .experience {
@@ -401,7 +405,7 @@ ul li a .txt-menu {
     grid-template-columns: repeat(6, 100%); /* Ajuste fino para colunas */
     height: 100%;
     width: 100%; /* Ajuste para considerar todas as imagens */
-    animation: slider 30s ease-in-out infinite; /* Duracao reduzida para 20 segundos */
+    animation: slider 30s ease-in-out infinite;
     transition: transform 1s ease;
     cursor: pointer;
 }
@@ -464,6 +468,7 @@ ul li a .txt-menu {
     transform: scale(1.1);
     transition: all 0.5s ease;
 }
+/*----------------------Responsividade----------------------------*/
 @media (max-width: 576px) {
     * {
         margin: 0;

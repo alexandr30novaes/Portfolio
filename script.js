@@ -35,6 +35,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     //}
 //}
 
+   ///// botao home //////
 document.getElementById('btn-bounce').addEventListener('click', function() {
     this.classList.add('bounce');
     setTimeout(() => {
