@@ -297,9 +297,29 @@ ul li a .txt-menu {
     height: 100%;
     margin-top: 5%;
 }
-.freme i {
+.icon-about {
+    font-size: 50px;
+}
+.fa-html5 {
+    color: rgb(211, 91, 0);
+}
+.fa-css3-alt {
     color: #2383dd;
-    font-size: 30px;
+}
+.fa-js {
+    color: rgb(247, 223, 30, 1);
+}
+.fa-react {
+    color: #2383dd;
+}
+.fa-angular {
+    color: rgb(185, 5, 5);
+}
+.fa-node {
+    color: rgb(51, 153, 51, 1);
+}
+.fa-sass {
+    color: rgba(255, 71, 175, 0.8);
 }
 /*---------------------------------experience-----------------------------------*/
 .experience {
