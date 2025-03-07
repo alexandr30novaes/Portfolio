@@ -297,8 +297,9 @@ ul li a .txt-menu {
     height: 100%;
     margin-top: 5%;
 }
-.icon-about {
-    font-size: 50px;
+.icon-about i{
+    font-size: 60px;
+    padding: 5px 10px 40px 30px;
 }
 .fa-html5 {
     color: rgb(211, 91, 0);
@@ -323,6 +324,9 @@ ul li a .txt-menu {
 }
 .fa-bootstrap {
     color: rgb(118, 2, 160);
+}
+.fa-git-alt {
+    color: rgb(211, 91, 0);
 }
 /*---------------------------------experience-----------------------------------*/
 .experience {
