@@ -299,7 +299,7 @@ ul li a .txt-menu {
 }
 .icon-about i{
     font-size: 60px;
-    padding: 5px 10px 40px 30px;
+    padding: 3px 3px 30px 20px;
 }
 .fa-html5 {
     color: rgb(211, 91, 0);
@@ -338,21 +338,22 @@ ul li a .txt-menu {
     font-family: 'roboto', sans-serif;
     font-size: 28px;
 }
+.container-experience {
+    width: 100%;
+}
 .container-experience p{
     font-family: "sour gummy", sans-serif;
     font-size: 15px;
-    width: 100%;
     text-indent: 35px;
     text-align: justify;
     margin-top: 10px;
 }
 .container-carrosel { 
     width: 300px;
-    height: 60vh;
+    height: 450px;
     overflow: hidden; 
-    position: relative;
     margin-top: 50px;
-    margin-left: 30%; 
+    margin-left: 30%;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
 } 
 .carrosel { 
